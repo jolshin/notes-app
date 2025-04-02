@@ -1,0 +1,59 @@
+#root {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+h1 {
+  display: inline;
+  margin: 0.2em;
+}
+
+.crud-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 3em;
+}
+
+.crud-viewer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.note-wrapper {
+  width: 30%;
+  text-align: right;
+}
+.note {
+  max-width: 100%;
+  padding: 0.3em;
+  margin: 0.5em;
+  border: 0.1em solid;
+  border-color: #1c1c1c;
+  word-wrap: break-word;
+  text-align: left;
+}
+
+.form {
+  text-align: right;
+  width: 30%;
+}
+
+textarea {
+  resize: none;
+  width: 100%;
+  height: 200px;
+  border: 0.1em solid;
+  border-color: #1c1c1c;
+  word-wrap: break-word;
+  text-align: left;
+}
+
+.textarea {
+
+  padding: 0.3em;
+  margin: 0.5em;
+
+}
